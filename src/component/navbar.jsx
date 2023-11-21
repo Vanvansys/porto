@@ -8,7 +8,7 @@ export default function NavBar({ isDrop, setDropTheme, dropTheme }) {
     { title: 'About', path: '/' },
     { title: 'Works', path: '/works' },
     { title: 'Posts', path: '/posts' },
-    { title: 'View Source', path: '/' },
+    { title: 'View Source', path: 'https://github.com/Vanvansys/porto' },
   ];
 
   return (
