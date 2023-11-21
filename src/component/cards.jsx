@@ -25,17 +25,18 @@ export default function Cards({ data }) {
         })}
       </ul>
       <div className='flex justify-center gap-x-4'>
-        {data.length > 1 && data.map((_, index) => {
-          return (
-            <button
-              key={index}
-              onClick={() => setList(index)}
-              className='h-10 w-10 rounded-lg bg-white font-tinos text-lg text-black'
-            >
-              {index + 1}
-            </button>
-          );
-        })}
+        {data.length > 1 &&
+          data.map((_, index) => {
+            return (
+              <button
+                key={index}
+                onClick={() => setList(index)}
+                className='h-10 w-10 rounded-lg bg-white font-tinos text-lg text-black'
+              >
+                {index + 1}
+              </button>
+            );
+          })}
       </div>
     </>
   );
