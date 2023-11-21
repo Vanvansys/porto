@@ -10,7 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "format": "prettier -w .",
-    "predeploy": "pnpm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "css": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/style.css --watch"
   },
