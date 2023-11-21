@@ -1,7 +1,7 @@
 function Facebook({ style, link }) {
   return (
     <img
-      src='/facebook.svg'
+      src='./facebook.svg'
       href={link}
       className={`w-9 cursor-pointer ${style}`}
     />
@@ -11,7 +11,7 @@ function Facebook({ style, link }) {
 function TwitterX({ style, link }) {
   return (
     <img
-      src='/twitterX.svg'
+      src='./twitterX.svg'
       href={link}
       className={`w-9 cursor-pointer ${style}`}
     />
@@ -21,7 +21,7 @@ function TwitterX({ style, link }) {
 function WhatsApp({ style, link }) {
   return (
     <img
-      src='/whatsapp.svg'
+      src='./whatsapp.svg'
       href={link}
       className={`w-9 cursor-pointer ${style}`}
     />
@@ -31,7 +31,7 @@ function WhatsApp({ style, link }) {
 function Instagram({ style, link }) {
   return (
     <img
-      src='/instagram.svg'
+      src='./instagram.svg'
       href={(link = '')}
       className={`w-9 cursor-pointer ${style}`}
     />
@@ -41,7 +41,7 @@ function Instagram({ style, link }) {
 function GitHub({ style, link }) {
   return (
     <img
-      src='/github.svg'
+      src='./github.svg'
       href={link}
       className={`w-9 cursor-pointer ${style}`}
     />
@@ -51,7 +51,7 @@ function GitHub({ style, link }) {
 function Moon({ style, link }) {
   return (
     <img
-      src='/moon.svg'
+      src='./moon.svg'
       href={link}
       className={`${style}`}
     />
@@ -61,7 +61,7 @@ function Moon({ style, link }) {
 function Sun({ style, link }) {
   return (
     <img
-      src='/sun.svg'
+      src='./sun.svg'
       href={link}
       className={`${style}`}
     />
@@ -71,7 +71,7 @@ function Sun({ style, link }) {
 function Eclipse({ style, link }) {
   return (
     <img
-      src='/eclipse.svg'
+      src='./eclipse.svg'
       href={link}
       className={`${style}`}
     />
