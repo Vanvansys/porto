@@ -14,7 +14,7 @@ export default function About() {
             </h2>
             <div className='flex flex-wrap'>
               <img
-                src='/absurd.png'
+                src='./absurd.png'
                 className='mx-auto my-6 w-full max-w-[400px] bg-white'
               />
               <div>
