@@ -8,7 +8,6 @@ export default function NavBar({ isDrop, setDropTheme, dropTheme }) {
     { title: 'About', path: '/' },
     { title: 'Works', path: '/works' },
     { title: 'Posts', path: '/posts' },
-    { title: 'View Source', path: 'https://github.com/Vanvansys/porto' },
   ];
 
   return (
@@ -30,6 +29,14 @@ export default function NavBar({ isDrop, setDropTheme, dropTheme }) {
             </li>
           );
         })}
+        <li className='text-md group my-5 text-center font-montserrat font-bold lg:mx-3 lg:my-0'>
+          <a
+            href='https://github.com/Vanvansys/porto/'
+            className='cursor-pointer px-3 py-3'
+          >
+            View Source
+          </a>
+        </li>
         <li className='text-md group my-5 text-center font-montserrat font-bold lg:mx-3 lg:my-0'>
           <Link
             className='cursor-pointer px-3 py-3'
