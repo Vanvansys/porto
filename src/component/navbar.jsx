@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
 
 import { Moon, Sun, Eclipse } from './icon';
 
@@ -19,7 +18,10 @@ export default function NavBar({ isDrop, setDropTheme, dropTheme }) {
       <ul className='bg:text-slate-950 mb-4 block lg:mb-2 lg:flex lg:pt-2 dark:lg:text-slate-200'>
         {menu.map(list => {
           return (
-            <li className='text-md group my-5 text-center font-montserrat font-bold lg:mx-3 lg:my-0'>
+            <li
+              key={list.title}
+              className='text-md group my-5 text-center font-montserrat font-bold lg:mx-3 lg:my-0'
+            >
               <Link
                 to={list.path}
                 className='cursor-pointer px-3 py-3'

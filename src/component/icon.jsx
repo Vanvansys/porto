@@ -53,7 +53,7 @@ function GitHub({ style, link }) {
   );
 }
 
-function Moon({ style, link }) {
+function Moon({ style }) {
   return (
     <img
       src='./moon.svg'
@@ -62,7 +62,7 @@ function Moon({ style, link }) {
   );
 }
 
-function Sun({ style, link }) {
+function Sun({ style }) {
   return (
     <img
       src='./sun.svg'
@@ -71,7 +71,7 @@ function Sun({ style, link }) {
   );
 }
 
-function Eclipse({ style, link }) {
+function Eclipse({ style }) {
   return (
     <img
       src='./eclipse.svg'

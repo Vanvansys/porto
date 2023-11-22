@@ -6,11 +6,11 @@ import App from './app';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const router = createHashRouter([
-	{
-		path: '/*',
-		element: <App />,
-	}
-])
+  {
+    path: '/*',
+    element: <App />,
+  },
+]);
 
 root.render(
   <React.StrictMode>
