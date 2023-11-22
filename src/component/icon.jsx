@@ -1,50 +1,55 @@
 function Facebook({ style, link }) {
   return (
-    <img
-      src='./facebook.svg'
-      href={link}
-      className={`w-9 cursor-pointer ${style}`}
-    />
+    <a href={link}>
+      <img
+        src='./facebook.svg'
+        className={`w-9 cursor-pointer ${style}`}
+      />
+    </a>
   );
 }
 
 function TwitterX({ style, link }) {
   return (
-    <img
-      src='./twitterX.svg'
-      href={link}
-      className={`w-9 cursor-pointer ${style}`}
-    />
+    <a href={link}>
+      <img
+        src='./twitterX.svg'
+        className={`w-9 cursor-pointer ${style}`}
+      />
+    </a>
   );
 }
 
 function WhatsApp({ style, link }) {
   return (
-    <img
-      src='./whatsapp.svg'
-      href={link}
-      className={`w-9 cursor-pointer ${style}`}
-    />
+    <a href={link}>
+      <img
+        src='./whatsapp.svg'
+        className={`w-9 cursor-pointer ${style}`}
+      />
+    </a>
   );
 }
 
 function Instagram({ style, link }) {
   return (
-    <img
-      src='./instagram.svg'
-      href={(link = '')}
-      className={`w-9 cursor-pointer ${style}`}
-    />
+    <a href={link}>
+      <img
+        src='./instagram.svg'
+        className={`w-9 cursor-pointer ${style}`}
+      />
+    </a>
   );
 }
 
 function GitHub({ style, link }) {
   return (
-    <img
-      src='./github.svg'
-      href={link}
-      className={`w-9 cursor-pointer ${style}`}
-    />
+    <a href={link}>
+      <img
+        src='./github.svg'
+        className={`w-9 cursor-pointer ${style}`}
+      />
+    </a>
   );
 }
 
@@ -52,7 +57,6 @@ function Moon({ style, link }) {
   return (
     <img
       src='./moon.svg'
-      href={link}
       className={`${style}`}
     />
   );
@@ -62,7 +66,6 @@ function Sun({ style, link }) {
   return (
     <img
       src='./sun.svg'
-      href={link}
       className={`${style}`}
     />
   );
@@ -72,7 +75,6 @@ function Eclipse({ style, link }) {
   return (
     <img
       src='./eclipse.svg'
-      href={link}
       className={`${style}`}
     />
   );
