@@ -9,7 +9,7 @@ export default function Footer() {
         <Instagram style={'rounded-xl'} />
         <GitHub 
           style={'rounded-xl'} 
-          link='https://github.io/Vanvansys' />
+          link={'https://github.io/Vanvansys'} />
         <WhatsApp style={'rounded-xl'} />
       </div>
       <div className='text-md flex justify-center py-6 font-tinos dark:text-slate-200'>
