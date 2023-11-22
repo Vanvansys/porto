@@ -7,9 +7,10 @@ export default function Footer() {
         <Facebook style={'rounded-xl'} />
         <TwitterX style={'rounded-xl'} />
         <Instagram style={'rounded-xl'} />
-        <GitHub 
-          style={'rounded-xl'} 
-          link={'https://github.io/Vanvansys'} />
+        <GitHub
+          style={'rounded-xl'}
+          link={'https://github.com/Vanvansys'}
+        />
         <WhatsApp style={'rounded-xl'} />
       </div>
       <div className='text-md flex justify-center py-6 font-tinos dark:text-slate-200'>
