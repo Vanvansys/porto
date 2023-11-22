@@ -32,7 +32,7 @@ export default function App() {
 
   return (
     <div className={`${mode == 'dark' && 'dark'}`}>
-      <Routes basename="/porto">
+      <Routes basename='/porto'>
         <Switch>
           <Route
             path='/'
