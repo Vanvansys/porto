@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "/porto",
+  "homepage": "/porto/#",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -17,7 +17,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^5.1.0",
+    "react-router-dom": "^6.19.0",
     "tailwindcss": "^3.3.5"
   },
   "devDependencies": {

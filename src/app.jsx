@@ -1,4 +1,4 @@
-import { HashRouter as Routes, Route, Switch } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
 import About from './component/pages/about';
@@ -32,19 +32,16 @@ export default function App() {
 
   return (
     <div className={`${mode == 'dark' && 'dark'}`}>
-      <Routes basename='/porto'>
-        <Switch>
+        <Routes>
           <Route
             path='/'
-            exact
-            component={About}
+            element={<About />}
           />
           <Route
-            path='/works'
-            component={Works}
+            path='works/*'
+            element={<Works />}
           />
-        </Switch>
-      </Routes>
+        </Routes>
     </div>
   );
 }
