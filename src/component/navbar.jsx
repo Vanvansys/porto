@@ -34,6 +34,7 @@ export default function NavBar({ isDrop, setDropTheme, dropTheme }) {
         <li className='text-md group my-5 text-center font-montserrat font-bold lg:mx-3 lg:my-0'>
           <a
             href='https://github.com/Vanvansys/porto/'
+						target='_blank'
             className='cursor-pointer px-3 py-3'
           >
             View Source

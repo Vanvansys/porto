@@ -44,7 +44,10 @@ function Instagram({ style, link }) {
 
 function GitHub({ style, link }) {
   return (
-    <a href={link}>
+    <a 
+			href={link}
+			target='_blank'
+		>
       <img
         src='./github.svg'
         className={`w-9 cursor-pointer ${style}`}
